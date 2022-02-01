@@ -1,6 +1,3 @@
-from re import S
-
-
 def selectsort(a):
     for i in range(0, len(a)):
         smallest = i

@@ -1,6 +1,3 @@
-from numpy import test
-
-
 def mergesort(arr):
     if len(arr) < 2:
         return arr
