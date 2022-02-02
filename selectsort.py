@@ -4,10 +4,7 @@ def selectsort(a):
         for j in range(i+1, len(a)):
             if a[j] < a[smallest]:
                 smallest = j
-        temp = a[i]
-        a[i] = a[smallest]
-        a[smallest] = temp
-    # return a
+        a[i], a[smallest] = a[smallest], a[i]
 
 def main():
     test_list = [5,4,3,2,1]
