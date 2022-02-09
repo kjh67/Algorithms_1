@@ -2,3 +2,5 @@
 /__pycache__
 /dynamic/__pycache__
 /sorting/__pycache__
+/dynamic/fib.py
+dynamic/max_subarray.py
